@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94bb38b6-7204-4d13-9f58-ff5808068a4a" name="Default Changelist" comment="" />
+    <list default="true" id="94bb38b6-7204-4d13-9f58-ff5808068a4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unoesc/util/GeradorParcelas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unoesc/util/GeradorParcelas.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Szr3YkpM18WowNLW0lTb67rCUZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />

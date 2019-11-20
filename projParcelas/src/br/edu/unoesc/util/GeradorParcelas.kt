@@ -12,12 +12,16 @@ fun gerarParcelas(numeroParcelas: Long, valorTotal: Double, intervaloDias: Long)
 
 
     for(i in 0 until numeroParcelas){
-        var novaData: LocalDate;
-        if (parcelas.isEmpty()) novaData = LocalDate.now().plusDays(31);
-        else novaData = parcelas.last().data.plusDays(intervaloDias);
-      parcelas += Parcela(data = novaData, numero = i, valor = valorParcela);
 
-   }
+        var novaData = if (parcelas.isEmpty()) {
+            LocalDate.now().plusMonths(1)
+        } else {
+            parcelas.last().data.plusDays(intervaloDias);
+        }
+
+        parcelas += Parcela(data = novaData, numero = i, valor = valorParcela);
+
+    }
 
     return parcelas;
 }
